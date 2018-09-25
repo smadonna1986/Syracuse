@@ -22,7 +22,7 @@ This project was created using create-react-app. This project will need to be ru
 ## How to Start
 
 npm
-Download or Clone this Repository. https://github.com/smadonna1986/project7
+Download or Clone this Repository. https://github.com/smadonna1986/Syracuse
 
 Run $ npm install to install the project dependencies.
 
