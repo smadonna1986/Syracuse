@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* Optional: Makes the sample page fill the window. */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#map {
+  height: 100vh;
+  width: 100%;
+  order: 1;
+}
+.container {
+  display: flex;
+}
+
+.sidebar {
+  background-color: green;
+  width: 300px;
+}
+
+.venue-list-parent {
+  list-style-type: none;
+  padding: 10px;
+  margin: 15px;
+}
+
+.venue-list-item {
+  padding: 20px 0;
+  cursor: pointer;
+  width: 100%;
+}
+
+.venue-list-item:hover {
+  color: red;
+  background-color: white;
+}
+
+.search-input {
+  margin: 10px 0 0 0;
+  width: 88%;
+  padding: 10px;
+}
